@@ -1,0 +1,18 @@
+{
+  "server": {
+    "port": "3801",
+    "secret": "lkvxckviwekvxkcvjiweslkfj3rskldfjlKKJcvweknsdvixcjvsd"
+  },
+  "admin": {
+    "secret": "asdfasdfsdfsdfsdfsdfsdf"
+  },
+  "mongodb": {
+    "uri": "mongodb://127.0.0.1:27017/adsbold-page"
+  },
+  "url": {
+    "auth_server": "https://adsbold.com",
+    "page_server": "https://adsbold.com",
+    "order_server": "https://adsbold.com",
+    "noti_server": "https://adsbold.com"
+  }
+}
