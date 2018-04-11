@@ -31,6 +31,7 @@ let updateStatePage = async () => {
         }
     }
     await db.close();
+    process.exit(0);
 };
 
 let getQueueActive = () => {
@@ -56,12 +57,3 @@ let getJob = (id) => {
     })
 };
 
-let i = 0;
-for( i = 0; i<100;i++) {
-    setTimeout(function() {
-        console.log("okmen");
-        updateStatePage();
-    }, 5000);
-}
-
-// process.exit(0);
